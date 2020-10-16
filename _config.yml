@@ -18,12 +18,12 @@ remote_theme: mmistakes/so-simple-theme
 skin: "/assets/css/skins/dark.css"
 locale: ko-KR
 title: "records"
-description: "기록. 기억."
+description: ""
 baseurl: "" # the subpath of your site, e.g. "/blog"
 url: "https://jrbn0617.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: "/images/so-simple-site-logo.png" # path of site logo, e.g. "/assets/images/logo.png"
 repository: "https://github.com/jrbn0617/jrbn0617.github.io.git"
-date_format: "%B %-d, %Y"
+date_format: "%Y-%m-%d"
 read_time: true
 words_per_minute: 200
 mathjax:
@@ -85,7 +85,6 @@ collections:
 
 # Front Matter Defaults
 defaults:
-  # Post defaults
   - scope:
       path: "_development"
       type: posts
@@ -101,6 +100,14 @@ defaults:
       layout: post
       comments: true
       share: true
+  - scope:
+      path: "_trade"
+      type: posts
+      values:
+        layout: post
+        comments: true
+        share: true
+
 
 # Site Author
 author:

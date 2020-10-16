@@ -1,7 +1,7 @@
 ---
-title: Recipes
+title: Etc
 layout: collection
-permalink: /recipes/
+permalink: /etc/
 collection: recipes
 entries_layout: grid
 ---
