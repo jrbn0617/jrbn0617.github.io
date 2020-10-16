@@ -15,10 +15,10 @@
 # in the templates via {{ site.myvariable }}.
 theme: jekyll-theme-so-simple
 remote_theme: mmistakes/so-simple-theme
-skin: "/assets/css/skins/default.css"
-locale: en-US
-title: "So Simple Development Site"
-description: "A simple Jekyll theme for words and pictures."
+skin: "/assets/css/skins/dark.css"
+locale: ko-KR
+title: "records"
+description: "기록. 기억."
 baseurl: "" # the subpath of your site, e.g. "/blog"
 url: "https://jrbn0617.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: "/images/so-simple-site-logo.png" # path of site logo, e.g. "/assets/images/logo.png"
@@ -38,8 +38,6 @@ google_fonts:
 google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 disqus:
   shortname: # Disqus shortname, e.g. "my_disqus_shortname"
-twitter:
-  username: mmistakes # site's Twitter username
 
 # Liquid
 liquid:
@@ -89,7 +87,7 @@ collections:
 defaults:
   # Post defaults
   - scope:
-      path: "_posts"
+      path: "_development"
       type: posts
     values:
       layout: post
@@ -97,8 +95,8 @@ defaults:
       share: true
   # Recipe defaults
   - scope:
-      path: "_recipes"
-      type: recipes
+      path: "_trade"
+      type: posts
     values:
       layout: post
       comments: true
@@ -106,32 +104,16 @@ defaults:
 
 # Site Author
 author:
-  name: Michael Rose
-  picture: /images/michael-rose-photo.jpg
-  email:
-  twitter: mmistakes
+  name: kim myeong-cheol
+  picture: /images/author.jpg
+  email: van10041@gmail.com
   links:
-    - title: Twitter
-      url: https://twitter.com/mmistakes
-      icon: fab fa-twitter-square
-    - title: Instagram
-      url: https://instagram.com/mmistakes
-      icon: fab fa-instagram
     - title: GitHub
-      url: https://github.com/mmistakes
+      url: https://github.com/jrbn0617
       icon: fab fa-github-square
 
 # Footer Links
 footer_links:
-  - title: Twitter
-    url: https://twitter.com/mmistakes
-    icon: fab fa-twitter-square
-  - title: Instagram
-    url: https://instagram.com/mmistakes
-    icon: fab fa-instagram
   - title: GitHub
-    url: https://github.com/mmistakes
+    url: https://github.com/jrbn0617
     icon: fab fa-github-square
-  - title: Feed
-    url: atom.xml
-    icon: fas fa-rss-square
