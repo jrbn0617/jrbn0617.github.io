@@ -1,5 +1,5 @@
 ---
-title: Development blog
+title: Development Archive
 layout: posts
 permalink: /dev/
 show_excerpts: true
