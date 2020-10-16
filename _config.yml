@@ -86,15 +86,7 @@ collections:
 # Front Matter Defaults
 defaults:
   - scope:
-      path: "_development"
-      type: posts
-    values:
-      layout: post
-      comments: true
-      share: true
-  # Recipe defaults
-  - scope:
-      path: "_trade"
+      path: "_dev"
       type: posts
     values:
       layout: post
@@ -103,10 +95,17 @@ defaults:
   - scope:
       path: "_trade"
       type: posts
-      values:
-        layout: post
-        comments: true
-        share: true
+    values:
+      layout: post
+      comments: true
+      share: true
+  - scope:
+      path: "_etc"
+      type: recipes
+    values:
+      layout: recipes
+      comments: true
+      share: true
 
 
 # Site Author
